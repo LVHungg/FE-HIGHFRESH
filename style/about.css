@@ -24,7 +24,7 @@ body {
 
 h2,
 h3 {
-  font-family: "Sarala", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bolder;
 }
 
@@ -64,5 +64,5 @@ p {
 
 .content-txt > p {
   margin-bottom: 20px;
-  margin-top: 5px;
+  margin-top: 30px;
 }
