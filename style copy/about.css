@@ -1,0 +1,68 @@
+/* Reset mặc định của trình duyệt */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Sansation";
+  src: url("font-family/Sansation-Light.ttf") format("truetype");
+}
+
+body {
+  margin: 4%;
+}
+
+#h2-black {
+  color: black;
+}
+
+#h2-red {
+  color: #991c21;
+}
+
+h2,
+h3 {
+  font-family: "Sarala", sans-serif;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 35px;
+  text-align: left;
+}
+
+p {
+  font-size: 23px;
+  font-weight: lighter;
+  font-family: "Sansation", Arial, sans-serif;
+}
+
+.content-welcome > p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 50px;
+  column-gap: 30px;
+}
+
+.gallery {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1px;
+  flex: 1;
+}
+
+.content-txt > p {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}

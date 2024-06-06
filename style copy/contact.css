@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Sansation", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "Sansation";
+  src: url("font-family/Sansation-Light.ttf") format("truetype");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  padding: 2% 4%;
+  gap: 50px;
+}
+
+.flex-contact-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-head {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #991c21;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.contact-des {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+label {
+  font-size: 14px;
+}
+
+form > input[type="text"],
+form > input[type="submit"] {
+  width: 100%;
+  padding: 15px 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+form > input[id="messenger"] {
+  height: 130px;
+}
+
+#messenger {
+  flex-grow: 1; /* Make messenger input grow to fill the remaining space */
+  padding: 20px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+#submit-button {
+  background-color: #991c21;
+  color: #ffffff; /* Corrected color value */
+  font-weight: bold;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin-top: auto; /* Ensures the button aligns to the bottom */
+  margin-bottom: 0px;
+}
+
+.flex-1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 36px;
+  padding: 20px 0px;
+}
+
+footer {
+  background-color: #991c21;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 4%;
+  color: white;
+}
+
+footer .flex-2 {
+  flex: 2;
+}
+
+footer .flex-1 {
+  flex: 1;
+}
+
+footer div {
+  margin: 0 10px;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: lighter;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin: 5px 0;
+  font-weight: 20;
+  padding: 5px;
+}
+
+footer i {
+  font-size: 24px;
+  color: white;
+}
+.footer a[href^="mailto"] {
+  color: #ffffff; /* Đổi màu liên kết thành màu trắng */
+  text-decoration: none; /* Loại bỏ gạch chân */
+}

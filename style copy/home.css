@@ -1,0 +1,188 @@
+/* Reset mặc định của trình duyệt */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Đặt chiều rộng và chiều cao của HTML và Body thành 100% */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #991c21;
+}
+
+/* Định dạng thanh điều hướng */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  background-color: #ffffff;
+  font-size: 20px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 0px;
+  justify-content: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #991c21;
+  font-size: 20px;
+  padding: 10px 40px;
+}
+
+.nav-page {
+  border-bottom: solid 3px #c3c3c3;
+}
+
+.fab {
+  font-size: 40px;
+}
+
+.hotline {
+  font-size: 24px;
+}
+
+.text-wrapper-4 {
+  border-bottom: solid 3px #991c21;
+}
+
+.logo {
+  height: 100px; /* Đặt chiều cao cho hình ảnh */
+  object-fit: contain; /* Đảm bảo hình ảnh vẫn giữ tỷ lệ và thay đổi kích thước */
+}
+
+.group {
+  display: flex;
+  align-items: center;
+}
+
+.div-wrapper {
+  background-color: #991c21;
+  border-radius: 6px;
+  padding: 5px 10px;
+  color: #ffffff;
+}
+
+.hotline {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.logo {
+  /* width: 30px;
+  height: auto; */
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.icon-fb {
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #991c21;
+  border-radius: 50%;
+  padding: 10px 15px;
+  margin: 0 10px;
+}
+
+/* Đảm bảo cả image-container và main-txt đều có kiểu position: relative */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.main-txt {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  transform: translate(-20%, -50%);
+  z-index: 1;
+  color: #ffffff;
+  text-align: left; /* Căn trái nội dung trong main-txt */
+}
+
+h1 {
+  font-size: 3em;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.main-txt p {
+  font-size: 1.5em;
+  color: #ffffff;
+  margin: 15px 0px;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+
+.call-to-action {
+  font-weight: bolder;
+  color: #991c21;
+  margin: 50px 0px;
+  padding: 20px 100px;
+  font-size: 22px;
+}
+
+.background-pic,
+.overlay {
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Các phần tử khác trong trang
+.desktop {
+  text-align: center;
+} */
+
+.span {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.text-wrapper-3 {
+  font-size: 22px;
+  color: #991c21;
+  font-weight: 700;
+}
+
+.call-to-action {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65%;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0)
+  ); /* Sử dụng gradient màu đen nhạt dần */
+  z-index: 1; /* Đảm bảo lớp overlay nằm trên hình ảnh */
+}
+
+.call-to-action {
+  text-decoration: none; /* Tắt gạch chân */
+}
