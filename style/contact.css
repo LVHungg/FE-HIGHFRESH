@@ -114,7 +114,7 @@ form > input[type="submit"] {
 .contact footer ul li {
   margin: 5px 0;
   font-weight: 20;
-  padding: 5px;
+  padding-bottom: 10px;
 }
 
 .contact footer i {
