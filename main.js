@@ -7,6 +7,6 @@ function sendEmail() {
   };
 
   emailjs
-    .send("service_dgeuf2t", "template_v0vax3a", params)
+    .send("service_7ordbca", "template_8rg3djk", params)
     .then(() => alert("Email sent successfully"));
 }
