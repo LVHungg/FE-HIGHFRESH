@@ -1,68 +1,67 @@
-/* Reset mặc định của trình duyệt */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.about {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 7rem;
 }
 
-@font-face {
-  font-family: "Sansation";
-  src: url("font-family/Sansation-Light.ttf") format("truetype");
-}
-
-body {
-  margin: 4%;
-}
-
-#h2-black {
+.about #h2-black {
   color: black;
 }
 
-#h2-red {
+.about #h2-red {
   color: #991c21;
 }
 
-h2,
+.about h2,
 h3 {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
 }
 
-h2 {
+.about h2 {
   font-size: 40px;
   text-align: center;
 }
 
-h3 {
+.about h3 {
   font-size: 35px;
   text-align: left;
 }
 
-p {
+.about p {
   font-size: 23px;
   font-weight: lighter;
   font-family: "Sansation", Arial, sans-serif;
 }
 
-.content-welcome > p {
+.about .content-welcome > p {
   text-align: center;
   margin-top: 20px;
+  color: black;
 }
 
-.flex-container {
+.about .flex-container {
   display: flex;
   margin-top: 50px;
   column-gap: 30px;
 }
 
-.gallery {
+.about .gallery {
   display: inline-grid;
   grid-template-columns: auto auto;
   grid-gap: 1px;
-  flex: 1;
+  flex: 0 0 45%;
 }
 
-.content-txt > p {
+.about .gallery img {
+  width: 100%;
+}
+
+.about .content-txt > h3 {
+  color: black;
+}
+.about .content-txt > p {
   margin-bottom: 20px;
   margin-top: 30px;
+  color: black;
 }

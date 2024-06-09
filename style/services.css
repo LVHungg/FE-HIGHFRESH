@@ -1,18 +1,10 @@
-/* Reset mặc định của trình duyệt */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Sansation", sans-serif;
+.our-service {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 7rem;
 }
 
-body {
-  margin: 4%;
-  margin-bottom: 8%;
-  height: 100%;
-}
-
-h2 {
+.our-service h2 {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
   color: #991c21;
@@ -20,13 +12,13 @@ h2 {
   font-size: 41px;
 }
 
-.dots {
+.our-service .dots {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
 
-.dot {
+.our-service .dot {
   height: 5px;
   width: 5px;
   background-color: black;
@@ -34,22 +26,24 @@ h2 {
   display: inline-block;
   margin: 0 5px;
 }
-.line {
+
+.our-service .line {
   width: 300px;
   height: 1px;
   background-color: black;
   margin: 10px auto;
 }
 
-.intro-txt {
+.our-service .intro-txt {
   font-weight: bold;
   text-align: center;
   gap: 50px;
   margin: 20px;
   font-size: 25px;
+  color: black;
 }
 
-.items-grid {
+.our-service .items-grid {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 80px 20px;
@@ -57,7 +51,7 @@ h2 {
   margin: 40px 0;
 }
 
-.service-item {
+.our-service .service-item {
   position: relative;
   display: flex;
   justify-content: center;
@@ -65,12 +59,12 @@ h2 {
   flex-direction: column;
 }
 
-.services-photo {
+.our-service .services-photo {
   width: 100%;
   border-radius: 19px;
 }
 
-.services-info {
+.our-service .services-info {
   background-color: #fffdfd;
   font-weight: lighter;
   box-shadow: 0px 4px 4px #00000040;
@@ -85,7 +79,7 @@ h2 {
   align-items: center;
 }
 
-h3 {
+.our-service h3 {
   font-family: "Roboto", sans-serif;
   color: #991c21;
   font-size: 20px;
@@ -93,6 +87,7 @@ h3 {
   padding-top: 10px;
 }
 
-.description {
+.our-service .description {
   padding: 10px 0px;
+  color: black;
 }
