@@ -111,7 +111,7 @@ body {
   position: relative;
   background-image: url("../img/background-pic.png");
   background-size: cover;
-  position: relative;
+  margin-top: 9rem;
 }
 
 /* styles for home */
